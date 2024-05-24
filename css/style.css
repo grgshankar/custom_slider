@@ -1,0 +1,30 @@
+
+*{
+    box-sizing: border-box;
+}
+.main_slider_wrapper {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.main_slider_wrapper .slider_carousel {
+    width: 600px;
+    overflow: hidden;
+}
+
+.main_slider_wrapper .slider_ {
+    display: flex;
+    transition: all 1s ease-in-out;
+}
+.main_slider_wrapper .slider_ .slider_wrapper{
+    height: 100%;
+}
+.main_slider_wrapper .slider_carousel img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
