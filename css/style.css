@@ -28,3 +28,16 @@
     display: block;
     object-fit: cover;
 }
+.dots_wrapper{
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+}
+.dots_wrapper .button {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+}
